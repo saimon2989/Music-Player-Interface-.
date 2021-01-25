@@ -1,0 +1,142 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+    background: linear-gradient(120deg, #495464, #bbbfca,#e8e8e8);
+}
+img{
+    max-width: 100%;
+}
+.player{
+    background: #495464;
+    width: 450px;
+    height: 760px;
+    color: white;
+    border-radius: 25px;
+    box-shadow: 1px 1px 20px #464646,
+                -1px -1px 20px #bbbbbb;
+    overflow: hidden;
+}
+.container {
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.icons a{
+    color: #fff;
+    font-size: 1.2em;
+    transition: all 0.3s;
+}
+.icons a:hover{
+    color: #bbbfca;
+}
+img {
+    box-shadow: 1px 1px 15px #bbbbbb,
+                -1px -1px 15px #bbbbbb;
+    width: 60%;
+    border-radius: 50%;
+    margin: 30px 80px;
+    transition: all 0.3s;
+}
+.img img{
+    border-radius: 50%;
+    cursor: pointer;
+}
+.img img:hover{
+    box-shadow: 1px 1px 25px #bbbbbb,
+                -1px -1px 25px #bbbbbb;
+    transform: scale(1.03);
+}
+.title{
+    text-align: center;
+    margin: 10px 0;
+}
+.title h2{
+    font-size: 2em;
+    margin: 0 0 10px 0;
+}
+.title p {
+    color: white;
+    font-size: 1.1em;
+}
+.time{
+    text-align: center;
+    margin: 15px 0;
+}
+.seek{
+    width: 100%;
+    height: 5px;
+    background-color: #393e46;
+    border-radius: 50px;
+}
+.seek .fill {
+    width: 0px;
+    height: 5px;
+    margin-left: 0px ;
+    background: #fff;
+    border-radius: 50px;
+}
+.audio-btns {
+    background: #393e46;
+    margin: 40px 0;
+    height: 350px;
+    width: 100%;
+    border-radius: 50%;
+    text-align: center;
+}
+.audio-btns a:hover{
+    color: #bbbfca;
+    transition: all 0.3s;
+}
+.play-btn{
+    padding: 45px 0 30px 0;
+}
+.play-btn a{
+    color: #fff;
+    margin: 0 25px;
+    font-size: 30px;
+    transition: all 0.3s ease-in-out;
+}
+.play-btn .play-pause {
+    background: #6e6e6e;
+    padding: 25px 25px 25px 25px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 20px #111;
+}
+.repeat-btns{
+    margin: 30px 0;
+
+}
+.repeat-btns a{
+    color: #fff;
+    margin: 0 40px;
+    font-size: 1.3em;
+}
+.repeat-btns button{
+    width: 30px;
+    height: 30px;
+    border: none;
+    font-size: 1.3em;
+    font-weight: bold;
+    background: #6e6e6e;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 50%;
+    outline: none;
+    box-shadow: 1px 1px 20px #111;
+    transition: all 0.3s;
+}
+.repeat-btns button:hover{
+    background: #464646;
+    color: #fff;
+}
