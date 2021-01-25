@@ -104,13 +104,13 @@ img {
 .play-btn a{
     color: #fff;
     margin: 0 25px;
-    font-size: 30px;
+    font-size: 20px;
     transition: all 0.3s ease-in-out;
 }
 .play-btn .play-pause {
     background: #6e6e6e;
-    padding: 25px 25px 25px 25px;
-    border-radius: 50px;
+    padding: 22.5px 25px 22.5px 25px;
+    border-radius: 60px;
     box-shadow: 1px 1px 20px #111;
 }
 .repeat-btns{
